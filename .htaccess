@@ -1,0 +1,2 @@
+RewriteEngine on
+RewriteRule services/companies.php/(.*) services/companies.php?id=$1
