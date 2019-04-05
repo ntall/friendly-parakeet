@@ -9,11 +9,11 @@ if(!isset($_SESSION['favs'])){
 require_once('services/config.inc.php'); 
 require_once('services/functions.inc.php'); 
 require_once('services/helpers.inc.php'); 
-echo "FUCKCKCKCKC";
 if (isset($_GET["id"]))
  $id = $_GET["id"];
 else
  $id = 'AAP'; // set a default id if its missing
+echo "FUCKCKCKCKC";
 
 $info = getSingleInfo($id); 
 echo $info;
