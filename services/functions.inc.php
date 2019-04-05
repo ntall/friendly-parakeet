@@ -4,9 +4,9 @@ echo "not promises";
   This function returns a connection object to a database
 */
 function setConnectionInfo( $connString, $user, $password ) {
-    echo " chess";
     $pdo = new PDO($connString,$user,$password);
     $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+    echo "returning";
     return $pdo;      
 }
 
