@@ -1,10 +1,11 @@
 <?php
 
-
+echo"promises";
 function getInfo() {
    $sql = 'SELECT symbol,name,sector,subindustry,address,exchange,website FROM companies WHERE symbol=?';
    return $sql;
 }
+
 
 function getSingleInfo($id) {
     try {

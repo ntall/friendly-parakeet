@@ -13,7 +13,7 @@ if (isset($_GET["id"]))
  $id = $_GET["id"];
 else
  $id = 'AAP'; // set a default id if its missing
-echo "FUCKCKCKCKC";
+echo "FUCK";
 
 $info = getSingleInfo($id); 
 echo $info;
