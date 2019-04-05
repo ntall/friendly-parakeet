@@ -9,6 +9,7 @@ function getInfo() {
 
 function getSingleInfo($id) {
     try {
+        echo " false";
         $connection=setConnectionInfo(DBCONNSTRING,DBUSER,DBPASS);
          $sql = getInfo();
         echo $sql;
