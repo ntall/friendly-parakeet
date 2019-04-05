@@ -6,6 +6,8 @@ header("Content-Type: application/json; charset=UTF-8");
 include_once 'database.php';
 include_once 'comp.php';
 
+echo "Foo";
+
 // instantiate database and company object
 $database = new Database();
 $db = $database->getConnection();
