@@ -33,8 +33,11 @@ define('DBUSER', $username);
 define('DBPASS', $password);
  echo "failure?";
  echo $host;
+        echo "<br/>";
         echo $username;
+        echo "<br/>";
         echo $db_name;
+        echo "<br/>";
         echo $password;
 
         $this->conn = null;
