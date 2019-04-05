@@ -5,7 +5,9 @@ echo "not promises";
 */
 function setConnectionInfo( $connString, $user, $password ) {
     echo $connString; 
+    echo "____";
     echo $user;
+    echo "____";
     echo $password;
     $pdo = new PDO($connString,$user,$password);
     echo "statement  ";
