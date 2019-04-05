@@ -16,7 +16,7 @@ else
  $id = 'AAP'; // set a default id if its missing
 
 $info = getSingleInfo($id); 
-
+echo $info;
 //http://1bestcsharp.blogspot.com/2015/10/php-mysql-update-using-form-code-pdo.html
 if(isset($_POST['update']))
 {
