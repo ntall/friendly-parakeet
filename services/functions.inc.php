@@ -3,15 +3,8 @@
   This function returns a connection object to a database
 */
 function setConnectionInfo( $connString, $user, $password ) {
-    echo $connString; 
-    echo "____";
-    echo $user;
-    echo "____";
-    echo $password;
-    $pdo = new PDO($connString,$user,$password);
-    echo "statement  ";
+    
     $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-    echo "returning";
     return $pdo;      
 }
 
