@@ -9,5 +9,5 @@
 		$_SESSION['message'] = 'Product already in favorites';
 	}
 	header('location: favorites.php');
-	
+	//Completed by Yichen Li
 ?>
