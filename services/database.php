@@ -31,7 +31,7 @@ $db_name = ltrim($dbparts['path'],'/');
 define('DBCONNECTION', "mysql:host=$hostname;dbname=$database");
 define('DBUSER', $username);
 define('DBPASS', $password);
- echo "failure?";
+ /*echo "failure?";
         echo "_________________________________";
         
         echo $dbparts['pass'];
@@ -44,19 +44,19 @@ define('DBPASS', $password);
         echo "----____---<br/>";
         echo $this->$password;
         echo "fuckkskka";
-
+*/
         $conn = null;
  
         try{
             $conn = new PDO("mysql:host=" . $host . ";dbname=" . $db_name, $username, $password);
-             echo "fail?";
+            // echo "fail?";
 
             $conn->exec("set names utf8");
         }catch(PDOException $exception){
             echo "Connection error: " . $exception->getMessage();
         }
  
-        return $this->conn;
+        return $conn;
     }
     
 }
