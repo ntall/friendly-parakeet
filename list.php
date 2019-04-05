@@ -54,7 +54,6 @@ require 'header.php';
                 data.forEach(function(d){
                     // a function to add all data to the list
                     function addTolist(){
-                            alert("made it");
 
                         let text= document.createTextNode(d.symbol);
                         let text2= document.createTextNode(d.name);
@@ -101,6 +100,8 @@ require 'header.php';
     bBox.appendChild(filter);
     filter.addEventListener('change',displayMatches);
 }
+                                alert("made it");
+
 createList();
 btn.addEventListener('click',function(){
     window.location.reload();
