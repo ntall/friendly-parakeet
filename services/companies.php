@@ -10,8 +10,6 @@ include_once 'comp.php';
 // instantiate database and company object
 $database = new Database();
 $db = $database->getConnection();
-// echo "Barrr";
-// initialize object
 $company = new Comp($db);
 
 
