@@ -16,14 +16,14 @@ require 'header.php';
         <h5>
         Mount Royal University <br>
         Department of Mathematics and Computing<br>
-        COMP 3512: Web 2- winter 2019<br>
+        COMP 3512: Web 2- Winter 2019<br>
         Handed in to: Randy Connolly
         </h5>
-        <h4>Group Memeber GitHub Repositories </h4>
+        <h4>Group Member GitHub Repositories </h4>
            <a href="https://c9.io/curtisloucks"> Curtis Loucks </a><br>
            <a href="https://c9.io/aminsid"> Amin Sid </a><br>
            <a href="https://c9.io/lyc2760008"> Yichen Li</a><br>
-           <a href="https://c9.io/ntall"> Nico Tallerico</a><br>
+           <a href="https://c9.io/ntall635"> Nico Tallerico</a><br>
            <a href="https://c9.io/pmidd081"> Paige Middleton</a><br>
          <h4>
             Master Repo
