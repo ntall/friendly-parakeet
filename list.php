@@ -39,12 +39,10 @@ require 'header.php';
     const filter = document.createElement('input');
     const btn = document.querySelector('.btn');
     function createList(){
-                                    alert("made it");
 
     //const sym = document.querySelector('#sym');
     // fetch from API
     const url = 'https://mighty-mesa-79950.herokuapp.com/services/companies.php';
-        alert (url);
     fetch(url)
      .then(function (response) {
          if (response.ok){
