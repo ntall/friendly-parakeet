@@ -31,7 +31,7 @@ $db_name = ltrim($dbparts['path'],'/');
 define('DBCONNECTION', "mysql:host=$hostname;dbname=$database");
 define('DBUSER', $username);
 define('DBPASS', $password);
- 
+ echo "failure?";
         $this->conn = null;
  
         try{
