@@ -10,6 +10,7 @@ echo "Foo";
 
 // instantiate database and company object
 $database = new Database();
+echo "Foreal";
 $db = $database->getConnection();
  echo "Barrr";
 // initialize object
