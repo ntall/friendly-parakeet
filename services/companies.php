@@ -11,7 +11,7 @@ include_once 'comp.php';
 $db = new Database();
 $db = getConnection();
  echo "Barrr";
-echo $db;
+//echo $db;
 // initialize object
 $company = new Comp($db);
 
