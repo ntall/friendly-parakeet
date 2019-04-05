@@ -8,7 +8,6 @@ $host = $dbparts['host'];
 $username = $dbparts['user'];
 $password = $dbparts['pass'];
 $db_name = ltrim($dbparts['path'],'/');
-echo $
 define('DBCONNSTRING', "mysql:host=".$host.";dbname=".$db_name.";charset=utf8mb4;");
 define('DBUSER', $username);
 define('DBPASS', $password);
