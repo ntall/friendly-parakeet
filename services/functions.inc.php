@@ -1,5 +1,4 @@
 <?php
-echo "not promises";
 /*
   This function returns a connection object to a database
 */
