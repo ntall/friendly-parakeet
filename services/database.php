@@ -56,7 +56,7 @@ define('DBPASS', $password);
             echo "Connection error: " . $exception->getMessage();
         }
  
-        return $this->conn;
+        return $conn;
     }
     
 }
