@@ -5,6 +5,7 @@ echo "not promises";
 */
 function setConnectionInfo( $connString, $user, $password ) {
     $pdo = new PDO($connString,$user,$password);
+    echo "statement  ";
     $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
     echo "returning";
     return $pdo;      
