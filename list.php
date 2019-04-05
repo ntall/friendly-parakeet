@@ -39,7 +39,6 @@ require 'header.php';
     const filter = document.createElement('input');
     const btn = document.querySelector('.btn');
     function createList(){
-    alert("made it");
     //const sym = document.querySelector('#sym');
     // fetch from API
     const url = 'https://mighty-mesa-79950.herokuapp.com/services/companies.php';
@@ -55,6 +54,8 @@ require 'header.php';
                 data.forEach(function(d){
                     // a function to add all data to the list
                     function addTolist(){
+                            alert("made it");
+
                         let text= document.createTextNode(d.symbol);
                         let text2= document.createTextNode(d.name);
                         let img = document.createElement('img');
