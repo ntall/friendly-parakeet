@@ -45,13 +45,13 @@ define('DBPASS', $password);
         echo $this->$password;
         echo "fuckkskka";
 
-        $this->conn = null;
+        $conn = null;
  
         try{
-            $this->conn = new PDO("mysql:host=" . $this->$host . ";dbname=" . $this->$db_name, $this->$username, $this->$password);
+            $conn = new PDO("mysql:host=" . $host . ";dbname=" . $db_name, $username, $password);
              echo "fail?";
 
-            $this->conn->exec("set names utf8");
+            $conn->exec("set names utf8");
         }catch(PDOException $exception){
             echo "Connection error: " . $exception->getMessage();
         }
