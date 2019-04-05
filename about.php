@@ -32,7 +32,5 @@ require 'header.php';
             </div>
         </div>
 </body>
-<!-- 
- This page Completed by Paige
--->
+
 </html>
