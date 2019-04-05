@@ -10,7 +10,6 @@ function getSingleInfo($id) {
     try {
         $connection=setConnectionInfo(DBCONNSTRING,DBUSER,DBPASS);
          $sql = getInfo();
-        echo $sql;
          $statement = runQuery($connection, $sql, array($id));
          $row = $statement->fetch(PDO::FETCH_ASSOC);
          $connection = null;
