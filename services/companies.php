@@ -18,7 +18,7 @@ $company = new Comp($db);
 $stmt = $company->read();
 $num = $stmt->rowCount();
 
-
+echo "Foo";
 // check if more than 0 record found
 if(!isset($_GET['id'])){
  
