@@ -8,8 +8,8 @@ include_once 'comp.php';
 
 
 // instantiate database and company object
-$database = new Database();
-$db = $database->getConnection();
+$db = new Database();
+$db = getConnection();
  echo "Barrr";
 echo $db;
 // initialize object
