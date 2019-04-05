@@ -6,11 +6,9 @@ header("Content-Type: application/json; charset=UTF-8");
 include_once 'database.php';
 include_once 'comp.php';
 
-echo "Foo";
 
 // instantiate database and company object
 $database = new Database();
-echo "Foreal";
 $db = $database->getConnection();
  echo "Barrr";
 // initialize object
@@ -21,7 +19,6 @@ $company = new Comp($db);
 $stmt = $company->read();
 $num = $stmt->rowCount();
 
-echo "Foo";
 // check if more than 0 record found
 if(!isset($_GET['id'])){
  
