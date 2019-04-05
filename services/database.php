@@ -32,6 +32,11 @@ define('DBCONNECTION', "mysql:host=$hostname;dbname=$database");
 define('DBUSER', $username);
 define('DBPASS', $password);
  echo "failure?";
+ echo $host;
+        echo $username;
+        echo $db_name;
+        echo $password;
+
         $this->conn = null;
  
         try{
