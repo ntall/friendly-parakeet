@@ -22,13 +22,13 @@ require 'header.php';
         <h4>Group Member GitHub Repositories </h4>
            <a href="https://c9.io/curtisloucks"> Curtis Loucks </a><br>
            <a href="https://c9.io/aminsid"> Amin Sid </a><br>
-           <a href="https://c9.io/lyc2760008"> Yichen Li</a><br>
-           <a href="https://c9.io/ntall635"> Nico Tallerico</a><br>
+           <a href="https://github.com/lyc2760008"> Yichen Li</a><br>
+           <a href="https://github.com/ntall"> Nico Tallerico</a><br>
            <a href="https://c9.io/pmidd081"> Paige Middleton</a><br>
          <h4>
             Master Repo
          </h4>
-           <a href=https://github.com/mru-comp3512-archive/w2019-assign2> Master GitHub Assignment Repo</a>
+           <a href=https://github.com/ntall/friendly-parakeet> Master GitHub Assignment Repo</a>
             </div>
         </div>
 </body>
