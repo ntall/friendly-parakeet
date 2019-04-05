@@ -34,7 +34,7 @@ define('DBPASS', $password);
  echo "failure?";
         echo "<br>";
         
-        echo $dbparts;
+        echo $dbparts['pass'];
         echo "</br>";
  echo $host;
         echo "<br/>";
@@ -43,6 +43,7 @@ define('DBPASS', $password);
         echo $db_name;
         echo "<br/>";
         echo $password;
+        echo "fuckkskka";
 
         $this->conn = null;
  
