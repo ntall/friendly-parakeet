@@ -209,8 +209,6 @@ function imageEvent(img,item){
     }
 
 </script>
-<!-- 
- This page Completed by Yichen Li
--->
+
 </body>
 </html>

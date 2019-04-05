@@ -130,7 +130,5 @@ if(isset($_POST['login'])){
          }
 </script>
 </body>
-<!-- 
- This page Completed by Yichen Li
--->
+
 </html>

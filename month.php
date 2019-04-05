@@ -125,7 +125,5 @@ var i = "<?php echo $i; ?>";//populate the company month stock info section
     }
 </script>
 </body>
-<!-- 
- This page Completed by Yichen Li and Curtis
--->
+
 </html>

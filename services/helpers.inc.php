@@ -19,7 +19,5 @@ function getSingleInfo($id) {
        die( $e->getMessage() );
     }
 }
-//This page Completed by Yichen Li
 ?>
 
-mysql://il0f2v7rrg3knfkm:cdywomvs1cu51h32@fnx6frzmhxw45qcb.cbetxkdyhwsb.us-east-1.rds.amazonaws.com:3306/s7n6aamuapux39bs

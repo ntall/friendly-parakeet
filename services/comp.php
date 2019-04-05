@@ -74,4 +74,4 @@ function readOne(){
 }
 
 }
-//This page completed by Yichen Li, made use some codes from https://www.codeofaninja.com/2017/02/create-simple-rest-api-in-php.html
+// used some codes from https://www.codeofaninja.com/2017/02/create-simple-rest-api-in-php.html

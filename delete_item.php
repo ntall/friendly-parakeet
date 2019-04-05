@@ -6,5 +6,4 @@
 	array_splice($_SESSION['favs'],$key,1);
 	$_SESSION['message'] = "Product deleted from favorites";
 	header('location: favorites.php');
-	//Completed by Yichen Li and Nico
 ?>

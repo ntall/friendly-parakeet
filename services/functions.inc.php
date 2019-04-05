@@ -36,5 +36,5 @@ function runQuery($connection, $sql, $parameters=array())     {
     }
     return $statement;
 }   
-//This page Completed by Yichen Li
+
 ?>

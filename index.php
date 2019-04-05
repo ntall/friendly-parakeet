@@ -99,8 +99,6 @@ require 'services/connect.php';
 </div>
 
 </main>
-<!-- 
- This page Completed by Yichen Li
--->
+
 </body>
 </html>

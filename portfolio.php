@@ -118,7 +118,5 @@
     .catch(error => console.error(error));
     </script>
 </body>
-<!-- 
- This page Completed by Yichen Li
--->
+
 </html>

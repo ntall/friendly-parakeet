@@ -12,6 +12,3 @@ session_destroy();
 header("location: index.php");
 exit;
 ?>
-<!-- 
- This page Completed by Yichen Li
--->

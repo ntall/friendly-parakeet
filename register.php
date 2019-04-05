@@ -217,6 +217,3 @@ if(isset($_POST['register'])){
 }
  
 ?>
-<!-- 
- This page Completed by Yichen Li
--->

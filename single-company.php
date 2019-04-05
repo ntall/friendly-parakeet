@@ -191,7 +191,5 @@ $i = $_GET['id'];
             }
         </script>
     </body>
-    <!-- 
- This page Completed by Amin and Yichen Li
--->
+ 
 </html>

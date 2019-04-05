@@ -1,16 +1,23 @@
 <?php
  
+ $url = getenv('JAWSDB_URL');
+$dbparts = parse_url($url);
+$host = $dbparts['host'];
+$username = $dbparts['user'];
+$password = $dbparts['pass'];
+$db_name = ltrim($dbparts['path'],'/');
+ 
 //Our MySQL user account.
-define('MYSQL_USER', 'root');
+define('MYSQL_USER', $username);
  
 //Our MySQL password.
-define('MYSQL_PASSWORD', '');
+define('MYSQL_PASSWORD', $password);
  
 //The server that MySQL is located on.
-define('MYSQL_HOST', 'localhost');
+define('MYSQL_HOST', $host);
  
 //The name of our database.
-define('MYSQL_DATABASE', 'companies');
+define('MYSQL_DATABASE', $db_name);
  
 $pdoOptions = array(
     PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION,
@@ -32,4 +39,4 @@ $stmt->execute();
 //for id increment after new registration
 $num = $stmt->fetchColumn()+1;
 
-//Completed by Yichen Li. Made use code from https://www.tutorialrepublic.com/php-tutorial/php-mysql-login-system.php
+//Made use code from https://www.tutorialrepublic.com/php-tutorial/php-mysql-login-system.php
