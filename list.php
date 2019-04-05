@@ -42,7 +42,7 @@ require 'header.php';
     
     //const sym = document.querySelector('#sym');
     // fetch from API
-    const url = 'https://comp-3512-assignment-2-curtisloucks.c9users.io/w2019-assign2-master/services/companies.php';
+    const url = 'https://mighty-mesa-79950.herokuapp.com/services/companies.php';
     fetch(url)
      .then(function (response) {
          if (response.ok){
